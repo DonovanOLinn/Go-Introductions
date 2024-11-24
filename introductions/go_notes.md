@@ -39,3 +39,4 @@ To run this code, we need to create a go.mod file.
 go mod init hello
 ```
 
+A GO file must import packages that are used in the file. It will not run if you have something that is imported but not used.
